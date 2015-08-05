@@ -1,12 +1,24 @@
+!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title><link href="Content/bootstrap.min.css" rel="stylesheet" /><link href="Content/prism.css" rel="stylesheet" /><link href="Content/style.css" rel="stylesheet" /></head>
+<body>
+
+    <form name="form1" method="post" action="Default.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1ODc3MzM5NjRkZFK9Y9YwyFnkrvD3eniGYXWJwOfK" />
+</div>
 
 
-        <div>
-            <div>
+        <div class="container">
+            <div class="col-xs-12">
                 <h3>PROJEYE SOCKETIO’NUN EKLENMESİ</h3>
                 <p>SocketIOyu JavaScript ile kullanabilmek için SocketIO’nun JavaScript Client scripti uygulamaya eklenmelidir. Aşağıdaki kodun SocketIO bağlantısı kurulmadan ve fonksiyonları yazılmadan önce Web sayfasına eklenmiş olması gerekir.</p>
                 <pre class="language-javascript">
 <code class="language-javascript">
-<script src="https://cdn.socket.io/socket.io-1.1.0.js"></script>
+&lt;script src=&quot;https://cdn.socket.io/socket.io-1.1.0.js&quot;&gt;&lt;/script&gt;
 </code>
                 </pre>
                 <h3>BAĞLANTININ KURULMASI</h3>
@@ -158,3 +170,8 @@ socket.on('socketConnected', function (socketName) {
 
             </div>
         </div>
+        <script src="Scripts/jquery-2.1.4.min.js"></script>
+        <script src="Scripts/prism.js"></script>
+    </form>
+</body>
+</html>
