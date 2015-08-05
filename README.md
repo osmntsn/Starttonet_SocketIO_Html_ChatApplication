@@ -1,23 +1,12 @@
-# Starttonet_SocketIO_Html_ChatApplication
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="Content/prism.css" rel="stylesheet" />
-    <link href="Content/style.css" rel="stylesheet" />
 
-</head>
-<body>
 
-    <form id="form1" runat="server">
-
-        <div class="container">
-            <div class="col-xs-12">
+        <div>
+            <div>
                 <h3>PROJEYE SOCKETIO’NUN EKLENMESİ</h3>
                 <p>SocketIOyu JavaScript ile kullanabilmek için SocketIO’nun JavaScript Client scripti uygulamaya eklenmelidir. Aşağıdaki kodun SocketIO bağlantısı kurulmadan ve fonksiyonları yazılmadan önce Web sayfasına eklenmiş olması gerekir.</p>
                 <pre class="language-javascript">
 <code class="language-javascript">
-&lt;script src=\&quot;https://cdn.socket.io/socket.io-1.1.0.js\&quot;&gt;&lt;/script&gt;
+<script src="https://cdn.socket.io/socket.io-1.1.0.js"></script>
 </code>
                 </pre>
                 <h3>BAĞLANTININ KURULMASI</h3>
@@ -169,8 +158,3 @@ socket.on('socketConnected', function (socketName) {
 
             </div>
         </div>
-        <script src="Scripts/jquery-2.1.4.min.js"></script>
-        <script src="Scripts/prism.js"></script>
-    </form>
-</body>
-</html>
